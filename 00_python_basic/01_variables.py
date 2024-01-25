@@ -13,3 +13,12 @@ print("my name is " + z + "my roll no is ", x)
 
 # Saparator 
 print(x,y,z,a, sep="-")
+
+# find the ascii of character
+char1 = "a" 
+print(ord(char1))
+
+# find the value of ascii
+ascii1 = 98
+print(chr(ascii1))
+print(chr(65))
