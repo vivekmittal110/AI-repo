@@ -113,3 +113,14 @@ print(matrix)
 print(matrix[2][1])
 matrix.insert(1,[2,3,4])
 print(matrix)
+
+
+# swap items in a list
+
+list = [23,65,19,90]
+# 23 == 19 swap places
+# list[0], list[2] = list[2], list[0]
+list[0] += list[2]
+list[2] = list[0] - list[2]
+list[0] = list[0] - list[2]
+print(list)
