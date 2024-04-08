@@ -1,5 +1,10 @@
 class Rectangle:
 
+    def __init__(self,width,height):
+        print("constructor called")
+        self.width = width
+        self.height = height
+
     def set_dimension(self,width,height):
         self.width = width
         self.height = height
@@ -23,8 +28,8 @@ class Rectangle:
 w = int(input("Enter the width : "))
 h = int(input("Enter the height : "))
 
-rectangle2 = Rectangle()
-rectangle2.set_dimension(w,h)
+rectangle2 = Rectangle(w,h)
+# rectangle2.set_dimension(w,h)
 
 print("the width and height are ", rectangle2.width, rectangle2.height)
 print(rectangle2.width)
